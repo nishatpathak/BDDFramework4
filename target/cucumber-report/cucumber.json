@@ -1,0 +1,230 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19117285770,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "registration for new user",
+        "description": "",
+        "id": "registration-feature;registration-for-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 482314352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154404527,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I an on homepage",
+            "match": {
+              "location": "HomeSteps.i_an_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1458303514,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on registration btn on home page",
+            "match": {
+              "location": "HomeSteps.iClickOnRegistrationBtnOnHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229450366,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press on female radio btn",
+            "match": {
+              "location": "RegisterSteps.iPressOnFemaleRadioBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367544417,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the valid first name",
+            "match": {
+              "location": "RegisterSteps.iEnterTheValidFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193703343,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the valid last name",
+            "match": {
+              "location": "RegisterSteps.iEnterTheValidLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166137660,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the date of birth",
+            "match": {
+              "location": "RegisterSteps.iEnterTheDateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97562031,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the month of birth",
+            "match": {
+              "location": "RegisterSteps.iEnterTheMonthOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149975079,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter the year of birth",
+            "match": {
+              "location": "RegisterSteps.iEnterTheYearOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294817071,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the valid email address",
+            "match": {
+              "location": "RegisterSteps.iEnterTheValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217284294,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter the password",
+            "match": {
+              "location": "RegisterSteps.iEnterThePassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130550071,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the  confirm password",
+            "match": {
+              "location": "RegisterSteps.iEnterTheConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595867977,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Register btn",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185769831,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Your registration completed]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.example.step_def.RegisterSteps.i_should_see_text(RegisterSteps.java:68)\n\tat ✽.And I should see this text on registration page\"Your registration completed\" text(registration.feature:20)\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "I should see this text on registration page\"Your registration completed\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your registration completed",
+                  "offset": 44
+                }
+              ],
+              "location": "RegisterSteps.i_should_see_text(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the url should contain \"/registerresult/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/registerresult/",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.the_url_should_contain(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "registration feature",
+    "description": "As a user\nI want to add registration functionality\nSo that customer can use it",
+    "id": "registration-feature",
+    "keyword": "Feature",
+    "uri": "registration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ntp"
+      }
+    ]
+  }
+]
