@@ -1,9 +1,7 @@
 @nrk1
-
-
 Feature: login feature
   As a user
-  I want to add login functionality
+ I want to add login functionality
   So that customer can use it
 
   Scenario:Validating sign in text on login page

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         strict = true,
         monochrome = true,
-        tags = "@ntp",
+        tags = {"@ntp"},
         plugin = "json:target/cucumber-report/cucumber.json")
 public class RunCukeTest {
     // a json report is generated as target/cucumber-report

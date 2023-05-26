@@ -1,3 +1,4 @@
+
 package org.example.pages;
 
 import org.example.driver.DriverManager;
@@ -8,10 +9,9 @@ public class LoginPage extends DriverManager {
 
     @FindBy(xpath = "//div[@class=\"center-1\"]/div/div/h1")//welcome text inspect element
     WebElement welcomeText;
-
-    public String getWelcomeText(){
+public String getWelcomeText(){
         String actualText = welcomeText.getText();//Welcome, signin please!
         return actualText;
-    }
+   }
     }
 

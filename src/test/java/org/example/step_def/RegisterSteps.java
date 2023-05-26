@@ -22,7 +22,7 @@ public class RegisterSteps {
         registerpage.writeName1();
     }
 
-    @And("^I enter the valid last name$")
+   @And("^I enter the valid last name$")
     public void iEnterTheValidLastName() {
         registerpage.WriteName2();
     }
